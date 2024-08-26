@@ -1,4 +1,4 @@
-package examples
+package empty_system
 
 import (
 	"github.com/peterhutkins-glydways/task_gen/gen"

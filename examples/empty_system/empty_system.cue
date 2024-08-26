@@ -1,4 +1,4 @@
-package examples
+package empty_system
 
 import (
 	"github.com/peterhutkins-glydways/task_gen/agents"
@@ -9,7 +9,7 @@ System : agents.#SystemDef & {
     agents: {
         "agent1": {}
         "longagent2": {
-            name: "value"
+            name: "longAgent2TrueName"
         }
     }
     signals: {
