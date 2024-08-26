@@ -10,7 +10,7 @@ Interesting directoris:
 
 To run the hof generator and create files in the `./output` directory, run the following command: 
 ```
-hof gen ./examples
+hof gen ./examples/empty_system
 ```
 
  
