@@ -1,10 +1,10 @@
 package empty_system
 
 import (
-	"github.com/peterhutkins-glydways/task_gen/agents"
+	"github.com/peterhutkins-glydways/task_manager_schema/agent"
 )
 
-System : agents.#SystemDef & {
+System : agent.#SystemDef & {
     name: "example_system"
     agents: {
         "agent1": {}

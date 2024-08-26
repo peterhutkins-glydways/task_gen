@@ -2,7 +2,7 @@ package gen
 
 import (
 	"github.com/hofstadter-io/hof/schema/gen"
-	"github.com/peterhutkins-glydways/task_gen/agents"
+	"github.com/peterhutkins-glydways/task_manager_schema/agent"
 )
 
 // This is your reusable generator module
@@ -16,7 +16,7 @@ Generator: gen.Generator & {
 	// typically you enforce schema(s) here
 	// Data: _
 	// Input: #Input
-	System: agents.#SystemDef
+	System: agent.#SystemDef
 
 	//
 	// Internal Fields

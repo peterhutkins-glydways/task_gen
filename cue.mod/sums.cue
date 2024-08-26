@@ -4,4 +4,5 @@ sums: {
 	"github.com/hofstadter-io/hof": "v0.6.9": ["h1:BTRfko2oGr8rQffp48Z9GRmgWaYeBgA8KyerYqA0Yug="]
 	"github.com/hofstadter-io/hofmod-cli": "v0.9.0": ["h1:RV3IxqbOayB9obhhbI82CtzOU4NQ0x7GLgZYiMZYYis="]
 	"github.com/hofstadter-io/supacode": "v0.0.7": ["h1:Ym52/vGKo7/msqjQ6WVCPjNtlfn9O01KD9JHyL1hE3s="]
+	"github.com/peterhutkins-glydways/task_manager_schema": "v0.0.0-20240826223622-f7a67cc19e59142414070961ac7650d402d7e075": ["h1:aL5O74OoGygsRkRHSxB7ebGsFXLXjOkk2A/2if8PiUs="]
 }
