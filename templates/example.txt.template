@@ -1,5 +1,7 @@
-{{ $S := .SYSTEM }}
-
+{{- /* Save the system in a variable */ -}}
+{{- $S := .SYSTEM -}}
+{{- /* Include some header */ -}}
+{{ template "header.c.template" }}
 Here's what is passed in : {{ . }}
 
 system name: {{ .SYSTEM.name }}
@@ -7,6 +9,7 @@ filename: {{ .OUT.Filepath }}
 
 Using Cue, I can see agents keys : {{ range $key, $value := .SYSTEM.agents }}{{ $key }} {{ end }}
 But it's a bit annoying to make it into a nice comma-separated list : {{ $first := true }}{{ range $A := .SYSTEM.agents }}{{ if not $first }}, {{ end }}{{ $first = false }}{{ $A.name }}{{ end }}
+
 
 Bad part: doesn't fully support Go. Although it has nice variables and a few functions available from https://pkg.go.dev/text/template , there's a limit. 
 For instance: I can't 'import ("strings")' to do a nice 'join .SYSTEM.agents ', '" (or whatever it should be in golang)
